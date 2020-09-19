@@ -5,11 +5,11 @@ import java.lang.reflect.Field;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        fuckJava();
+        hackJava();
         System.out.printf("%d", 2 + 2);
     }
 
-    public static void hac()throws Exception{
+    public static void hackJava()throws Exception{
         Class cache = Integer.class.getDeclaredClasses()[0];
         Field c = cache.getDeclaredField("cache");
         c.setAccessible(true);
