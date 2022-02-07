@@ -1,5 +1,6 @@
 # HackJava
- This code hacks Java. It should print 4, but  it doesnt.
+ This code manipulates Java via reflect. It should print 4, but it doesnt. Useful to confuse your programming teacher.
+ 
 ```java
 import java.lang.reflect.Field;
 
